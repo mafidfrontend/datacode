@@ -1,4 +1,4 @@
-// components/Button.tsx
+// components/Button.tsx created
 import { motion } from 'framer-motion';
 import { HTMLMotionProps } from 'framer-motion';
 import { FC, ReactNode } from 'react';
@@ -6,7 +6,6 @@ import { FC, ReactNode } from 'react';
 interface ButtonProps extends HTMLMotionProps<'button'> {
   children: ReactNode;
 }
-
 const Button: FC<ButtonProps> = ({ children, ...props }) => {
   return (
     <motion.button

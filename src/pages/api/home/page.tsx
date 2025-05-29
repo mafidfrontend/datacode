@@ -42,7 +42,6 @@ const HomePage: React.FC = () => {
                 </Button>
               </div>
             </motion.div>
-
             {/* Image Side */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
