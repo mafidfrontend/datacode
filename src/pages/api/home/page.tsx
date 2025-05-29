@@ -28,7 +28,7 @@ const HomePage: React.FC = () => {
               className="lg:w-1/2 lg:pr-12 mb-12 lg:mb-0"
             >
               <h1 className="text-2xl md:text-3xl lg:text-[40px] text-gray-900 mb-6">
-                Kuchli IT bilimlari uchun to'g'ri <br /> manzil – <span className="font-bold italic">DataAcademy!</span>
+                Kuchli IT bilimlari uchun to&apos;g&apos;ri <br /> manzil – <span className="font-bold italic">DataAcademy!</span>
               </h1>
               <p className="text-lg text-gray-700 mb-8">
                 IT bilimlaringizni interaktiv darslar, amaliy loyihalar va
@@ -39,7 +39,7 @@ const HomePage: React.FC = () => {
                   Kurslarni tanlash
                 </Button>
                 <Button>
-                  Bepul darslarni ko'rish
+                  Bepul darslarni ko&apos;rish
                 </Button>
               </div>
             </motion.div>
