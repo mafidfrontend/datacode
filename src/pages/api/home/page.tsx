@@ -17,7 +17,6 @@ const HomePage: React.FC = () => {
             backgroundPosition: "center",
           }}
         />
-
         <div className="container mx-auto px-6 md:px-12 py-12 md:py-20 lg:py-24 relative z-10">
           <div className="flex flex-col lg:flex-row items-center">
             {/* Content Side */}
