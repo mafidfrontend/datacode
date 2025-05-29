@@ -8,7 +8,6 @@ const HomePage: React.FC = () => {
     <div className="pt-24 min-h-screen">
       {/* Hero Section with Background */}
       <section className="relative">
-        {/* Background Image */}
         <div
           className="absolute inset-0 z-0"
           style={{
@@ -19,7 +18,6 @@ const HomePage: React.FC = () => {
         />
         <div className="container mx-auto px-6 md:px-12 py-12 md:py-20 lg:py-24 relative z-10">
           <div className="flex flex-col lg:flex-row items-center">
-            {/* Content Side */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
@@ -42,7 +40,6 @@ const HomePage: React.FC = () => {
                 </Button>
               </div>
             </motion.div>
-            {/* Image Side */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
